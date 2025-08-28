@@ -1,0 +1,9 @@
+body {
+    background-color: #f0f1f1;
+}
+
+.badge {
+    width: 6rem;
+    background-color: #ffffe4;
+    margin: 0px 0px 0px 5px;
+}

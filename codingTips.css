@@ -1,0 +1,28 @@
+
+html, body {
+    height: 100%;
+    padding:0;
+    margin: 0;
+  }
+
+  .bg-image {
+      /* Replace with your image path */
+    background-size: cover;      /* Make the image cover the whole background */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Ensure the background stays fixed during scroll */
+    /* height: 100vh; */
+    height: 2000px;
+    /* height: 100%; */
+    width: 100%;
+    object-fit: cover;
+    filter:brightness(0.6);
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+}               /* Set height to 100% of the viewport */
+
+.info-tips{
+    display: flex;
+    flex-direction: column;
+}

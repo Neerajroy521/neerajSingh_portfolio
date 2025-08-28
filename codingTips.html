@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="util.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="codingTips.css">
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- animation link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- font awsome icon link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+
+    <title>Neeraj Portfolio</title>
+</head>
+
+<body style="background-color: rgb(234, 224, 224);">
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/myImages/logo.png" alt="Bootstrap" width="70" height="64">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="./certificates.html">Certification</a>
+                    <a class="nav-link" href="./projects.html">Projects</a>
+                    <a class="nav-link" href="./resumeCV.html">Resume/CV</a>
+                    <a class="nav-link" href="./blogs.html">Blogs</a>
+                </div>
+                <!-- drop down  -->
+                <div class="btn-group all-links " style="width: 15rem;">
+                    <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Learn Free Web Development
+                    </button>
+
+                    <ul class="dropdown-menu" style="width: 15rem;">
+
+
+                        <div class="badge text-bg-dark text-wrap"
+                            style="width: 6rem; background-color: #ffffe4; margin: 0px 0px 0px 5px;">
+                            FrontEnd
+                        </div>
+                        <li><a class="dropdown-item fw-bold "
+                                href="https://www.geeksforgeeks.org/html-tutorial/">HTML</a></li>
+                        <li><a class="dropdown-item fw-bold" href="https://www.geeksforgeeks.org/css-tutorial/">CSS</a>
+                        </li>
+                        <li><a class="dropdown-item fw-bold" href="https://www.w3schools.com/js/">Java Script</a></li>
+                        <div class="dropdown-divider"></div>
+
+
+
+                        <div class="badge text-bg-dark text-wrap" style="width: 6rem; margin: 0px 0px 0px 5px;">
+                            Backend
+                        </div>
+                        <li><a class="dropdown-item fw-bold" href="https://www.w3schools.com/sql/">MySQL</a></li>
+                        <li><a class="dropdown-item fw-bold" href="https://www.w3schools.com/python/">Python</a></li>
+                        <li><a class="dropdown-item fw-bold" href="https://www.w3schools.com/java/">Java</a></li>
+                        <li><a class="dropdown-item fw-bold" href="https://www.w3schools.com/php/">Php</a></li>
+                        <div class="dropdown-divider"></div>
+
+
+
+
+                        <div class="badge text-bg-dark text-wrap" style="width: 6rem; margin: 0px 0px 0px 5px;">
+                            Design
+                        </div>
+                        <li><a class="dropdown-item fw-bold"
+                                href="https://www.w3schools.com/REACT/DEFAULT.ASP">React.Js</a>
+                        </li>
+                        <li><a class="dropdown-item fw-bold" href="https://www.w3schools.com/bootstrap5/">Bootstrap</a>
+                        </li>
+                        <li><a class="dropdown-item fw-bold" href="https://www.w3schools.com/angular/">AngularJS</a>
+                        </li>
+                        <li><a class="dropdown-item fw-bold" href="https://www.w3schools.com/vue/">VueJS</a></li>
+                        <div class="dropdown-divider"></div>
+
+
+
+                        <div class="badge text-bg-dark text-wrap" style="width: 6rem; margin: 0px 0px 0px 5px;">
+                            FrameWork
+                        </div>
+                        <li><a class="dropdown-item fw-bold"
+                                href="https://www.geeksforgeeks.org/figma-tutorial/">Figma</a></li>
+                        <li><a class="dropdown-item fw-bold" href="#">PhotoShop</a></li>
+                        <li><a class="dropdown-item fw-bold" href="https://www.tpointtech.com/adobe-xd">Adobe XD</a>
+                        </li>
+                        <div class="dropdown-divider"></div>
+
+
+
+                        <div class="badge text-bg-dark text-wrap" style="width: 6rem; margin: 0px 0px 0px 5px;">
+                            Extra
+                        </div>
+                        <li><a class="dropdown-item fw-bold" href="https://www.w3schools.com/git/">Git</a></li>
+                        <li><a class="dropdown-item fw-bold"
+                                href="https://www.w3schools.com/whatis/whatis_github.asp">Git
+                                Hub</a></li>
+                        <li><a class="dropdown-item fw-bold"
+                                href="https://www.w3schools.com/css/css_rwd_mediaqueries.asp">Media
+                                Queries</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- another  -->
+    <div class="d-block d-lg-none">
+        <ul class="nav nav-underline d-flex justify-content-center align-items-center ">
+            <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="codingTips.html">Coding Tips</a>
+            </li>
+            </li>
+        </ul>
+    </div>
+
+    <!--  -->
+
+    <!-- bg-div with image -->
+    <div class="text-dark container">
+        <div>
+            <h2>Understand the Basics {Learn Fundamental Concept}</h2>
+            <ul>
+                <li>Variables</li>
+                <li>Data Types</li>
+                <li>Control Structures</li>
+                <li>Functions</li>
+                <li>OOPs</li>
+            </ul>
+            <!--  -->
+            <h2>Practice Regularly {Daily Coding}</h2>
+            <ul>
+                <li>Set aside time each day to code</li>
+                <li>Engage with sites like <a href="https://leetcode.com/">Leet Code</a>, <a
+                        href="https://www.hackerrank.com/">hacker rank</a> etc.</li>
+            </ul>
+            <!--  -->
+            <h2>Work On Projects {Gradually increase complexity}</h2>
+            <ul>
+                <li>Build simple projects to apply your knowledge </li>
+                <li>Tackle more complex projects as you gain confidence</li>
+            </ul>
+            <h2>Read Code {Study Open Source Code}</h2>
+            <ul>
+                <li>Explore github repositories to see how others codes</li>
+                <li>Learn from various approaches and techniques</li>
+            </ul>
+            <h2>Learn Version Control</h2>
+            <ul>
+                <li>Understand basic commands (clone, commit, push, pull) and how to manage repositories.</li>
+                <li>Learn to work with branches for feature development and collaboration.</li>
+            </ul>
+            <h2>Ue Debugging Tools</h2>
+            <ul>
+                <li>Familiarize yourself with IDE debugging features to identify and fix
+                    issues.</li>
+                <li>Learn to interpret and troubleshoot errors effectively to save time.</li>
+            </ul>
+            <h2>Follow tech blogs and podcasts</h2>
+            <ul>
+                <li>Keep up with industry trends, new languages, and frameworks.</li>
+                <li>Explore platforms like W3School.com , greekforgreeks, mdn mozirilla to
+                    learn new skills.</li>
+            </ul>
+            <h2>Join a communities</h2>
+            <ul>
+                <li>Participate in discussions on platforms like Stack Overflow or Reddit to seek help and share
+                    knowledge.</li>
+                <li>Join local or virtual coding groups to network and learn from others.</li>
+            </ul>
+            <h2>Learn
+                Algorithms and Data Structures</h2>
+            <ul>
+                <li>Participate in discussions on platforms like Stack Overflow or
+                    Reddit
+                    to seek help and share knowledge.</li>
+                <li>Learn about arrays, linked lists, trees, and graphs to optimize your code.</li>
+            </ul>
+            <h2>Set Goals</h2>
+            <ul>
+                <li>Set clear, achievable goals for your learning journey to stay
+                    motivated.</li>
+                <li>Regularly review your goals and adjust them as needed to ensure continuous improvement.</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!--  -->
+
+
+
+    <!-- <img src="mountain.jpg" class="img-fluid bg" alt="Responsive image"> -->
+    <!-- image  -->
+
+
+
+
+    <!-- footer of web page -->
+
+    <div class='footer'>
+        <div class="footer-icons">
+            <img src="All_Images/youtube_icon.png" alt="" />
+            <img src="All_Images/twitter_icon.png" alt="" />
+            <img src="All_Images/instagram_icon.png" alt="" />
+            <img src="All_Images/facebook_icon.png" alt="" />
+            <a href="https://www.linkedin.com/in/neerajsingh521/"><img src="All_Images/linkedin.png" alt=""  /></a>
+        </div>
+        <ul>
+            <li>Audio Description</li>
+            <li>Help Center</li>
+            <li>Gift Centre</li>
+            <li>Media Centre</li>
+            <li>Investor Relations</li>
+            <li>Jobs</li>
+            <li>Terms of Use</li>
+            <li>Privacy</li>
+            <li>Legal Notices</li>
+            <li>Cookie Preferences</li>
+            <li>Corporate Information</li>
+            <li>Contact Us</li>
+        </ul>
+        <p class='copyright-text'>© 2000-2025 Neeraj Portfolio, Inc</p>
+    </div>
+
+
+    <!-- bootstrap 5 -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+
+    <!-- Optional JavaScript -->
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body> -->
+
+</html>
