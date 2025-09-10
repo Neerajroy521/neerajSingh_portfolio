@@ -11,10 +11,9 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="codingTips.css">
+
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <!-- animation link -->
@@ -29,8 +28,8 @@
 <body style="background: #f0f1f1">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="myImages/logo.png" alt="Bootstrap" width="70" height="64">
+            <a class="navbar-brand" href="index.html" style="margin: 0;">
+                <img src="myImages/logo-1.svg" alt="Bootstrap">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +37,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link active fw-bold" href="/">Home <span class="sr-only">(current)</span></a>
                     <a class="nav-link" href="./certificates.html">Certification</a>
                     <a class="nav-link" href="./projects.html">Projects</a>
                     <a class="nav-link" href="./resumeCV.html">Resume/CV</a>
@@ -127,8 +126,79 @@
 
 
 
-
+    <!-- slides -->
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="All_Images/slide1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="animate__animated animate__bounce animate__infinite animate__slow">Welcome to Neeraj
+                        Portfolio </h2>
+                    <p>Know more about Neeraj...</p>
+                    <button class="btn btn-primary" type="submit"
+                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"><a
+                            class="btn text-white" href="resumeCV.html" role="button">Resume/CV</a></button>
+                    <button class="btn btn-danger" type="submit"><a class="btn text-white" href="projects.html"
+                            role="button">My Projects</a></button>
+                    <button class="btn btn-success" type="submit"><a class="btn text-white" href="certificates.html"
+                            role="button">Certifications</a></button>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="All_Images/slide2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="animate__animated animate__bounce animate__infinite animate__slow">Welcome to Neeraj
+                        Portfolio </h2>
+                    <p>Know more about Neeraj...</p>
+                    <button class="btn btn-primary" type="submit"
+                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"><a
+                            class="btn text-white" href="resumeCV.html" role="button">Resume/CV</a></button>
+                    <button class="btn btn-danger" type="submit"><a class="btn text-white" href="projects.html"
+                            role="button">My Projects</a></button>
+                    <button class="btn btn-success" type="submit"><a class="btn text-white" href="certificates.html"
+                            role="button">Certifications</a></button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="All_Images/slide3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="animate__animated animate__bounce animate__infinite animate__slow">Welcome to Neeraj
+                        Portfolio </h2>
+                    <p>Know more about Neeraj...</p>
+                    <button class="btn btn-primary" type="submit"
+                        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"><a
+                            class="btn text-white" href="resumeCV.html" role="button">Resume/CV</a></button>
+                    <button class="btn btn-danger" type="submit"><a class="btn text-white" href="projects.html"
+                            role="button">My Projects</a></button>
+                    <button class="btn btn-success" type="submit"><a class="btn text-white" href="certificates.html"
+                            role="button">Certifications</a></button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+
+    <!--  -->
+
+
+
+
+
+
+
+    <!-- <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
                 <img src="All_Images/slide1.jpg" class="d-block w-100" alt="...">
@@ -162,7 +232,6 @@
             </div>
             <div class="carousel-item">
                 <img src="All_Images/slide3.jpg" class="d-block w-100" alt="...">
-
                 <div class="carousel-caption d-none d-md-block">
                     <h2 class="animate__animated animate__jackInTheBox animate__delay-2s">Welcome to Neeraj Portfolio
                     </h2>
@@ -187,7 +256,7 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-    </div>
+    </div> -->
 
     <!--  -->
 
@@ -260,8 +329,8 @@
                 fundamentals, and seeking help when needed. Engage in hands-on coding, build small projects, and don't
                 be afraid to experiment and learn from mistakes. Leverage online resources, learn from others, and
                 consider joining communities for support and collaboration. </p>
-            <button type="button" class="btn btn-primary"><a href="codingTips.html"
-                    class="text-white text-decoration-none">Continue reading</a></button>
+            <!-- <button type="button" class="btn btn-primary"><a href="codingTips.html"
+                    class="text-white text-decoration-none">Continue reading</a></button> -->
 
             <p class="card-text"><small class="text-body-secondary">Last updated 3 months ago</small></p>
         </div>
@@ -294,7 +363,7 @@
             <div class=" d-flex flex-column align-items-center justify-content-center w-2 social-icons">
                 <img src="SvgImages/leetcode.svg" alt="" class="width: 50vw" height="50vh">
                 <br>
-                <a class="btn btn-dark p-1" href="#" role="button">Leet Code</a>
+                <a class="btn btn-dark p-1" href="https://leetcode.com/u/royneeraj521/" role="button">Leet Code</a>
 
             </div>
             <div class=" d-flex flex-column align-items-center justify-content-center w-2 social-icons">
@@ -319,16 +388,16 @@
 
     <!-- Tile for articles  -->
     <div class="text-center text-white d-flex justify-content-center align-items-center fs-3 mt-4"
-        style="background: url(All_Images/article-background.jpg); border: none; border-radius: 3px; height: 10vh;  ">
+        style="background: url(authors/articles.jpg); border: none; border-radius: 3px; height: 10vh; margin: 0px 5px 0px 5px; ">
 
-        Articles
+        ARTICLES
     </div>
 
     <!-- articles cards -->
     <div class="card mb-3   " style="max-width: auto; margin: 20px 2%; ">
         <div class="row g-0">
             <div class="col-md-2" style="padding: 15px;">
-                <img src="All_Images/Dennis_Ritchie_2011.jpg" class="img-fluid rounded-start" alt="..."
+                <img src="authors/Dennis_Ritchie_2011.jpg" class="img-fluid rounded-start" alt="..."
                     style="border-radius: 4px;">
             </div>
             <div class="col-md-10">
@@ -364,7 +433,7 @@
     <div class="card mb-3   " style="max-width: auto; margin: 20px 2%; ">
         <div class="row g-0">
             <div class="col-md-2" style="padding: 15px;">
-                <img src="All_Images/Brendan_Eich_Mozilla_Foundation_official_photo.jpg" class="img-fluid rounded-start"
+                <img src="authors/Brendan_Eich_Mozilla_Foundation_official_photo.jpg" class="img-fluid rounded-start"
                     alt="..." style="border-radius: 4px;">
             </div>
             <div class="col-md-10">
@@ -379,7 +448,7 @@
                         Communications Corporation, initially named "Mocha," then "LiveScript," and finally settled on
                         "JavaScript".</p>
                     <p class="card-text"><small class="text-body-secondary">Last updated 1 year ago</small></p>
-                    <a class="btn btn-danger" href="https://en.wikipedia.org/wiki/JavaScript" role="button">click for
+                    <a class="btn btn-danger" href="https://en.wikipedia.org/wiki/Brendan_Eich" role="button">click for
                         wikipedia</a>
                 </div>
             </div>
@@ -392,7 +461,7 @@
     <div class="card mb-3   " style="max-width: auto; margin: 20px 2%; ">
         <div class="row g-0">
             <div class="col-md-2" style="padding: 15px;">
-                <img src="All_Images/tim_berners_lee.jpg" class="img-fluid rounded-start" alt="..."
+                <img src="authors/sirTimothy.jpg" class="img-fluid rounded-start" alt="..."
                     style="border-radius: 4px;">
             </div>
             <div class="col-md-10">
@@ -427,7 +496,7 @@
     <div class="card mb-3   " style="max-width: auto; margin: 20px 2%; ">
         <div class="row g-0">
             <div class="col-md-2 d-flex justify-content-center align-items-center" style="padding: 15px; ">
-                <img src="All_Images/jhon.jpg" class="img-fluid rounded-start" alt="..." style="border-radius: 4px;">
+                <img src="authors/reactjs.png" class="img-fluid rounded-start" alt="..." style="border-radius: 4px;">
             </div>
             <div class="col-md-10">
                 <div class="card-body">
@@ -443,7 +512,7 @@
                         for PHP.</p>
                     <p class="card-text"><small class="text-body-secondary">Last updated 1 year ago</small></p>
                     <a class="btn btn-danger"
-                        href="https://en.wikipedia.org/wiki/React_(software)#:~:text=React%20was%20created%20by%20Jordan,HTML%20component%20library%20for%20PHP."
+                        href="https://www.wikidata.org/wiki/Q64845926#:~:text=creator%20of%20the%20React%20JavaScript%20library"
                         role="button">click for wikipedia</a>
                 </div>
             </div>
@@ -457,7 +526,7 @@
     <div class="card mb-3   " style="max-width: auto; margin: 20px 2%; ">
         <div class="row g-0">
             <div class="col-md-2" style="padding: 15px;">
-                <img src="All_Images/James_Gosling_2008.jpg" class="img-fluid rounded-start" alt="..."
+                <img src="authors/James_Gosling_2008.jpg" class="img-fluid rounded-start" alt="..."
                     style="border-radius: 4px;">
             </div>
             <div class="col-md-10">
@@ -477,7 +546,7 @@
                         Java with a C/C++-style syntax that system and application programmers would find familiar.</p>
                     <p class="card-text"><small class="text-body-secondary">Last updated 1 year ago</small></p>
                     <a class="btn btn-danger"
-                        href="https://en.wikipedia.org/wiki/Java_(programming_language)#:~:text=Java%20was%20designed%20by%20James,component%20of%20Sun's%20Java%20platform."
+                        href="https://en.wikipedia.org/wiki/James_Gosling"
                         role="button">click for
                         wikipedia</a>
                 </div>
@@ -491,7 +560,7 @@
     <div class="card mb-3   " style="max-width: auto; margin: 20px 2%; ">
         <div class="row g-0">
             <div class="col-md-2" style="padding: 15px;">
-                <img src="All_Images/Monty-Widenius-David-Axmark-MySQL-2003-05-09.jpg" class="img-fluid rounded-start"
+                <img src="authors/mysql.png" class="img-fluid rounded-start"
                     alt="..." style="border-radius: 4px;">
             </div>
             <div class="col-md-10">
@@ -510,7 +579,7 @@
                         to
                         use MySQL instead of the (proprietarily licensed) mSQL antecedent.</p>
                     <p class="card-text"><small class="text-body-secondary">Last updated 1 year ago</small></p>
-                    <a class="btn btn-danger" href="https://en.wikipedia.org/wiki/MySQL" role="button">click for
+                    <a class="btn btn-danger" href="https://en.wikipedia.org/wiki/David_Axmark" role="button">click for
                         wikipedia</a>
                 </div>
             </div>
@@ -530,11 +599,11 @@
 
     <div class='footer'>
         <div class="footer-icons">
-            <img src="All_Images/youtube_icon.png" alt="" />
-            <img src="All_Images/twitter_icon.png" alt="" />
-            <img src="All_Images/instagram_icon.png" alt="" />
-            <img src="All_Images/facebook_icon.png" alt="" />
-            <a href="https://www.linkedin.com/in/neerajsingh521/"><img src="All_Images/linkedin.png" alt="" /></a>
+            <img src="footer_icons/youtube_icon.png" alt="" />
+            <img src="footer_icons/twitter_icon.png" alt="" />
+            <img src="footer_icons/instagram_icon.png" alt="" />
+            <img src="footer_icons/facebook_icon.png" alt="" />
+            <a href="https://www.linkedin.com/in/neerajsingh521/"><img src="footer_icons/linkedin--2.png" alt="" /></a>
         </div>
         <ul>
             <li>Audio Description</li>
