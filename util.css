@@ -16,3 +16,17 @@
       display: block;
     }
   }
+
+
+  /* certificate for single line in 600px */
+
+  @media (max-width:600px){
+    .singleLine{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+
+  /* set fixed size of the card in certificate */
+  
